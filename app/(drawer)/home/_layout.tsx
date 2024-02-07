@@ -23,6 +23,12 @@ const Layout = () => {
           headerLeft: () => <DrawerToggleButton tintColor="#fff" />,
         }}
       />
+      <Stack.Screen
+        name="movie/[id]"
+        options={{
+          title: '',
+        }}
+      />
     </Stack>
   );
 };
