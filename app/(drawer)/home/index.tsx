@@ -58,7 +58,7 @@ const Page = () => {
           opacity: 0,
         }}
         animation="lazy">
-        Trending
+        Trendingg
       </Subtitle>
       {(trendingQuery.isLoading || searchQuery.isLoading) && (
         <Spinner size="large" color="$blue10" />
