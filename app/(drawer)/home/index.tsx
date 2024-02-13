@@ -17,7 +17,7 @@ const Page = () => {
   });
 
   const searchQuery = useQuery({
-    queryKey: ['trending'],
+    queryKey: ['search', searchString],
     queryFn: getTrending,
   });
 
