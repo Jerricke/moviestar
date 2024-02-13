@@ -7,7 +7,7 @@ type MovieCardProps = {
   movie: ResultItem;
 };
 
-// TODO ADD TV TYPe
+// TODO ADD
 const MovieCard = ({ movie }: MovieCardProps) => (
   <Link
     href={`/(drawer)/home/${movie.media_type === 'movie' ? 'movie' : 'movie'}/${movie.id}`}
