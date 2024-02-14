@@ -5,6 +5,10 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { useTheme } from 'tamagui';
 
+export const unstable_settings = {
+  initialRouteName: 'index',
+};
+
 const Layout = () => {
   const theme = useTheme();
 
