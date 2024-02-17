@@ -18,7 +18,7 @@ const Layout = () => {
         headerStyle: {
           backgroundColor: theme.blue7.get(),
         },
-        headerTintColor: '#ffff2',
+        headerTintColor: '#fff',
       }}>
       <Stack.Screen
         name="index"
