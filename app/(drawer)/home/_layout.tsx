@@ -6,7 +6,7 @@ import { View, Text } from 'react-native';
 import { useTheme } from 'tamagui';
 
 export const unstable_settings = {
-  initialRouteName: 'index',
+  initialRouteName: 'index',,
 };
 
 const Layout = () => {
@@ -18,7 +18,7 @@ const Layout = () => {
         headerStyle: {
           backgroundColor: theme.blue7.get(),
         },
-        headerTintColor: '#ffff',
+        headerTintColor: '#fff',
       }}>
       <Stack.Screen
         name="index"
