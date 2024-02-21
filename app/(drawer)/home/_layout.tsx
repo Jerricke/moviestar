@@ -6,7 +6,7 @@ import { View, Text } from 'react-native';
 import { useTheme } from 'tamagui';
 
 export const unstable_settings = {
-  initialRouteName: 'index',,
+  initialRouteName: 'index',
 };
 
 const Layout = () => {
