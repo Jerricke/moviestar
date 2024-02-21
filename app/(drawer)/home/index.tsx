@@ -19,6 +19,7 @@ const Page = () => {
   });
 
   const test;
+  const test;
 
   const searchQuery = useQuery({
     queryKey: ['search', debouncedString],
