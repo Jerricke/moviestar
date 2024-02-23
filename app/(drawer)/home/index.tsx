@@ -18,9 +18,6 @@ const Page = () => {
     queryFn: getTrending,
   });
 
-  const test;
-  const test;
-
   const searchQuery = useQuery({
     queryKey: ['search', debouncedString],
     queryFn: () => getSearchResults(debouncedString),
@@ -28,6 +25,7 @@ const Page = () => {
   });
 
   return (
+    <></>
     <Main>
       <ImageBackground
         source={{
