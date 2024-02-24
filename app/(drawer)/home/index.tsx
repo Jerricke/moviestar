@@ -19,13 +19,12 @@ const Page = () => {
   });
 
   const searchQuery = useQuery({
-    queryKey: ['search', debouncedString],
+    queryKey: ['searchh', debouncedString],
     queryFn: () => getSearchResults(debouncedString),
     enabled: debouncedString.length > 0,
   });
 
   return (
-    <></>
     <Main>
       <ImageBackground
         source={{
