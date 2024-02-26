@@ -19,7 +19,7 @@ const Page = () => {
   });
 
   const searchQuery = useQuery({
-    queryKey: ['searchh', debouncedString],
+    queryKey: ['search', debouncedString],
     queryFn: () => getSearchResults(debouncedString),
     enabled: debouncedString.length > 0,
   });
