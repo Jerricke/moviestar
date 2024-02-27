@@ -17,7 +17,7 @@ const Page = () => {
     queryKey: ['trending'],
     queryFn: getTrending,
   });
-
+  const test;
   const searchQuery = useQuery({
     queryKey: ['search', debouncedString],
     queryFn: () => getSearchResults(debouncedString),
