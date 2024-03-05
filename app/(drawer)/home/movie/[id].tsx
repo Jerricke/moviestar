@@ -5,7 +5,6 @@ import { MediaType } from '~/interfaces/apiresults';
 
 const Page = () => {
   const { id } = useLocalSearchParams<{ id: string }>();
-  console.log('🚀 ~ Page ~ id:', id);
 
   return <DetailsPage id={id} mediaType={MediaType.Movie} />;
 };
