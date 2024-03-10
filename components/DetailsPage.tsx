@@ -31,7 +31,7 @@ const DetailsPage = ({ id, mediaType }: DetailsPageProps) => {
         </ImageBackground>
       </ScrollView>
       <YStack p={10} animation="lazy" enterStyle={{ opacity: 0, y: 0 }}>
-        <H1 color="$blue7">
+        <H1 color="$blue77">
           {movieQuery.data?.title || movieQuery.data?.name}
           <Text fontSize={16}>
             (
